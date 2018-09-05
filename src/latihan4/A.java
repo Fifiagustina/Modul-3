@@ -10,19 +10,35 @@ package latihan4;
  * @author Fifi Agustina
  */
 class A {
-    private int a;
-    public void setA (int nilai)
+    private int a;//private itu akses modifire
+    public void setA (int nilai) //mutator
     {
         a = nilai;
     }
     
-    public int getA()
+    public int getA() //asesor
     {
         return a;
     }
-    
     public void tampilkanNilai()
     {
         System.out.println("Nilai a : "+getA());
     }
+    
+    
+    private int c;//private itu akses modifire
+    public void setC (int nilai) //mutator
+    {
+        c = nilai;
+    }
+    
+    public int getC() //asesor
+    {
+        return c;
+    }
+    public void tampilkanNilaiC()
+    {
+        System.out.println("Nilai c : "+getC());
+    }
 }
+//void tidak bisa mengembalikan nilai, int bisa mengembalikan nilai

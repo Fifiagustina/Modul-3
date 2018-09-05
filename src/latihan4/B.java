@@ -11,7 +11,7 @@ package latihan4;
  */
 class B extends A{
  private int b;
- public void setB (int nilai)
+ public void setB (int nilai) //int nilai itu parameter
  {
  b = nilai;
  }

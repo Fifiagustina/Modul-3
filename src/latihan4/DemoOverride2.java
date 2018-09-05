@@ -15,7 +15,9 @@ class DemoOverride2 {
      B obj = new B ();
      obj.setA(50);
      obj.setB(150);
+     obj.setC(60);
      //akan memanggil method yang terdapat pada kelas B
      obj.tampilkanNilai();
+     obj.tampilkanNilaiC();
  }
 }

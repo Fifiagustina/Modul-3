@@ -17,7 +17,7 @@ class Person
     //Konstruktor
     public Person (String nama, int usia)
     {
-        this.nama = nama;
+        this.nama = nama; //this untuk memanggil variabel pada satu class
         this.usia = usia;
     }
     //Metode

@@ -15,7 +15,7 @@ class Employ extends Person
     //Konstruktor
     public Employ (String noKaryawan, String nama, int usia)
     {
-        super(nama, usia);
+        super(nama, usia);//super untuk memanggil variabel dari luar 
         this.noKaryawan = noKaryawan;
     }
     //Metode
